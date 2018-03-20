@@ -56,7 +56,6 @@ const sections = [
 
 export default class App extends Component {
   renderItem = (info) => {
-    console.log(info);
     return <View key={info.item.key} style={{
       backgroundColor: 'lightgrey',
       height: 50,
