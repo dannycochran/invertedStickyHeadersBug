@@ -76,7 +76,7 @@ export default class App extends Component {
     return (
       <SectionList sections={sections}
         inverted
-        invertedStickyHeaders
+        invertStickyHeaders
         stickySectionHeadersEnabled
         renderSectionHeader={this.renderSectionHeader}
         renderItem={this.renderItem}>
